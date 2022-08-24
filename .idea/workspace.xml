@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="중복문자 제거">
-      <change afterPath="$PROJECT_DIR$/src/inflern/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflern/Palindrome2.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="문자열에서 숫자만 추출">
+      <change afterPath="$PROJECT_DIR$/src/inflern/CharacterShortDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/StringPackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +32,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/82106/Desktop/스프링기본/demo/demo/build.gradle",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="Application.Palindrome2">
-    <configuration name="DuplicateStringDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.DuplicateStringDelete" />
+}]]></component>
+  <component name="RunManager" selected="Application.StringPackage">
+    <configuration name="CharacterShortDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.CharacterShortDistance" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseSpecificString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.ReverseSpecificString" />
+    <configuration name="StringPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.StringPackage" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.ReverseString" />
+    <configuration name="printNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.printNum" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringPackage" />
+        <item itemvalue="Application.CharacterShortDistance" />
+        <item itemvalue="Application.printNum" />
         <item itemvalue="Application.Palindrome2" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.DuplicateStringDelete" />
-        <item itemvalue="Application.ReverseSpecificString" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660906253625</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="회문 문자열">
+      <created>1661062945846</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661062945846</updated>
+    </task>
+    <task id="LOCAL-00010" summary="문자열에서 숫자만 추출">
+      <created>1661064287476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661064287476</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +221,9 @@
     <MESSAGE value="StringBuilder 함수를 이요해 문자열 뒤집기" />
     <MESSAGE value="문자열에서 특수 문자는 제외하고 알파벳만 뒤집기" />
     <MESSAGE value="중복문자 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="중복문자 제거" />
+    <MESSAGE value="회문 문자열" />
+    <MESSAGE value="문자열에서 숫자만 추출" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자열에서 숫자만 추출" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
