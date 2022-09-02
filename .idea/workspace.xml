@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="문자열에서 숫자만 추출">
-      <change afterPath="$PROJECT_DIR$/src/inflern/CharacterShortDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflern/StringPackage.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/inflern/CalculateScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/RankScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/Section2_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/arraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/82106/Desktop/스프링기본/demo/demo/build.gradle",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/82106/Desktop/스프링기본/demo/demo/build.gradle&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StringPackage">
-    <configuration name="CharacterShortDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.CharacterShortDistance" />
+}</component>
+  <component name="RunManager" selected="Application.Section2_10">
+    <configuration name="CalculateScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.CalculateScore" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.IsPalindrome" />
+    <configuration name="RankScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.RankScore" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.Palindrome2" />
+    <configuration name="ReversePrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.ReversePrime" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.StringPackage" />
+    <configuration name="Section2_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.Section2_10" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.printNum" />
+    <configuration name="arraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.arraySum" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringPackage" />
-        <item itemvalue="Application.CharacterShortDistance" />
-        <item itemvalue="Application.printNum" />
-        <item itemvalue="Application.Palindrome2" />
-        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.Section2_10" />
+        <item itemvalue="Application.arraySum" />
+        <item itemvalue="Application.RankScore" />
+        <item itemvalue="Application.CalculateScore" />
+        <item itemvalue="Application.ReversePrime" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +200,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661064287476</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="문자간에 거리">
+      <created>1661324738333</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661324738333</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".">
+      <created>1661346004531</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661346004531</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <created>1662005233011</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662005233011</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +246,9 @@
     <MESSAGE value="중복문자 제거" />
     <MESSAGE value="회문 문자열" />
     <MESSAGE value="문자열에서 숫자만 추출" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열에서 숫자만 추출" />
+    <MESSAGE value="문자간에 거리" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,6 +261,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RockPaperScissors.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
