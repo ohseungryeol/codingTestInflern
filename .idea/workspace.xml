@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/inflern/CalculateScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflern/RankScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflern/Section2_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inflern/arraySum.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="메모이제이션 재귀">
+      <change afterPath="$PROJECT_DIR$/src/inflern/PracDFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +42,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Section2_10">
-    <configuration name="CalculateScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.CalculateScore" />
+  <component name="RunManager" selected="Application.PracDFS">
+    <configuration name="DFSClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.DFSClass" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +56,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RankScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.RankScore" />
+    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.Fibo" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.ReversePrime" />
+    <configuration name="PracDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.PracDFS" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Section2_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.Section2_10" />
+    <configuration name="binaryRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.binaryRecur" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.arraySum" />
+    <configuration name="recurEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.recurEx" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Section2_10" />
-        <item itemvalue="Application.arraySum" />
-        <item itemvalue="Application.RankScore" />
-        <item itemvalue="Application.CalculateScore" />
-        <item itemvalue="Application.ReversePrime" />
+        <item itemvalue="Application.PracDFS" />
+        <item itemvalue="Application.DFSClass" />
+        <item itemvalue="Application.Fibo" />
+        <item itemvalue="Application.binaryRecur" />
+        <item itemvalue="Application.recurEx" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +218,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662005233011</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=".">
+      <created>1662144342077</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662144342077</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".">
+      <created>1662443498674</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662443498674</updated>
+    </task>
+    <task id="LOCAL-00016" summary="투포인터 활용">
+      <created>1662467133826</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662467133826</updated>
+    </task>
+    <task id="LOCAL-00017" summary="투포인터 활용">
+      <created>1662710428223</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662710428223</updated>
+    </task>
+    <task id="LOCAL-00018" summary="이진트리 순회">
+      <created>1662718828864</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662718828864</updated>
+    </task>
+    <task id="LOCAL-00019" summary="메모이제이션 재귀">
+      <created>1662718847575</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662718847575</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,7 +287,10 @@
     <MESSAGE value="문자열에서 숫자만 추출" />
     <MESSAGE value="문자간에 거리" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="투포인터 활용" />
+    <MESSAGE value="이진트리 순회" />
+    <MESSAGE value="메모이제이션 재귀" />
+    <option name="LAST_COMMIT_MESSAGE" value="메모이제이션 재귀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
