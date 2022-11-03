@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="메모이제이션 재귀">
-      <change afterPath="$PROJECT_DIR$/src/inflern/PracDFS.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="1번정점부터 각 정점으로가는 최소 간선 수">
+      <change afterPath="$PROJECT_DIR$/src/inflern/SearchPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inflern/GraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflern/GraphDFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +43,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PracDFS">
-    <configuration name="DFSClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.DFSClass" />
+  <component name="RunManager" selected="Application.boj10799">
+    <configuration name="BFSshortPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.BFSshortPath" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.Fibo" />
+    <configuration name="FindCow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.FindCow" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.PracDFS" />
+    <configuration name="GraphDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.GraphDFS" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binaryRecur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.binaryRecur" />
+    <configuration name="GraphDFSArrayListVer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.GraphDFSArrayListVer" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="recurEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.recurEx" />
+    <configuration name="boj10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.boj10799" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PracDFS" />
-        <item itemvalue="Application.DFSClass" />
-        <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.binaryRecur" />
-        <item itemvalue="Application.recurEx" />
+        <item itemvalue="Application.boj10799" />
+        <item itemvalue="Application.BFSshortPath" />
+        <item itemvalue="Application.GraphDFSArrayListVer" />
+        <item itemvalue="Application.GraphDFS" />
+        <item itemvalue="Application.FindCow" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +261,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662718847575</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DFS 연습">
+      <created>1663660268850</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663660268850</updated>
+    </task>
+    <task id="LOCAL-00021" summary="BFS">
+      <created>1664880010432</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664880010432</updated>
+    </task>
+    <task id="LOCAL-00022" summary=".">
+      <created>1665304632522</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665304632522</updated>
+    </task>
+    <task id="LOCAL-00023" summary="인접행렬DFS연습">
+      <created>1665308556087</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665308556087</updated>
+    </task>
+    <task id="LOCAL-00024" summary="arrayList를 이용한 인접행렬 DFS">
+      <created>1665315745273</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665315745273</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1번정점부터 각 정점으로가는 최소 간선 수">
+      <created>1665487471299</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665487471299</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,11 +329,16 @@
     <MESSAGE value="회문 문자열" />
     <MESSAGE value="문자열에서 숫자만 추출" />
     <MESSAGE value="문자간에 거리" />
-    <MESSAGE value="." />
     <MESSAGE value="투포인터 활용" />
     <MESSAGE value="이진트리 순회" />
     <MESSAGE value="메모이제이션 재귀" />
-    <option name="LAST_COMMIT_MESSAGE" value="메모이제이션 재귀" />
+    <MESSAGE value="DFS 연습" />
+    <MESSAGE value="BFS" />
+    <MESSAGE value="." />
+    <MESSAGE value="인접행렬DFS연습" />
+    <MESSAGE value="arrayList를 이용한 인접행렬 DFS" />
+    <MESSAGE value="1번정점부터 각 정점으로가는 최소 간선 수" />
+    <option name="LAST_COMMIT_MESSAGE" value="1번정점부터 각 정점으로가는 최소 간선 수" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/RockPaperScissors.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/inflern/PracDFS.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
