@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="1번정점부터 각 정점으로가는 최소 간선 수">
-      <change afterPath="$PROJECT_DIR$/src/inflern/SearchPath.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="DFS 활용">
+      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/Q10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/ShortestFindMiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/Tomato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Djkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inflern/GraphDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inflern/GraphDFS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +41,20 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/82106/Desktop/스프링기본/demo/demo/build.gradle&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/82106/Desktop/project01&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.boj10799">
-    <configuration name="BFSshortPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.BFSshortPath" />
+  <component name="RunManager" selected="Application.Tomato">
+    <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q10" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
+          <option name="PATTERN" value="DFS_BFS활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindCow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.FindCow" />
+    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q5" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
+          <option name="PATTERN" value="DFS_BFS활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.GraphDFS" />
+    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q7" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
+          <option name="PATTERN" value="DFS_BFS활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphDFSArrayListVer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.GraphDFSArrayListVer" />
+    <configuration name="ShortestFindMiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.ShortestFindMiro" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
+          <option name="PATTERN" value="DFS_BFS활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj10799" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.boj10799" />
+    <configuration name="Tomato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Tomato" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
+          <option name="PATTERN" value="DFS_BFS활용.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.boj10799" />
-        <item itemvalue="Application.BFSshortPath" />
-        <item itemvalue="Application.GraphDFSArrayListVer" />
-        <item itemvalue="Application.GraphDFS" />
-        <item itemvalue="Application.FindCow" />
+        <item itemvalue="Application.Tomato" />
+        <item itemvalue="Application.ShortestFindMiro" />
+        <item itemvalue="Application.Q10" />
+        <item itemvalue="Application.Q7" />
+        <item itemvalue="Application.Q5" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +308,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665487471299</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="인접행렬과 인접리스트">
+      <created>1667464433686</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667464433686</updated>
+    </task>
+    <task id="LOCAL-00027" summary="DFS 활용">
+      <created>1673189406057</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673189406057</updated>
+    </task>
+    <task id="LOCAL-00028" summary="DFS 활용">
+      <created>1674207013882</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674207013882</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +364,9 @@
     <MESSAGE value="인접행렬DFS연습" />
     <MESSAGE value="arrayList를 이용한 인접행렬 DFS" />
     <MESSAGE value="1번정점부터 각 정점으로가는 최소 간선 수" />
-    <option name="LAST_COMMIT_MESSAGE" value="1번정점부터 각 정점으로가는 최소 간선 수" />
+    <MESSAGE value="인접행렬과 인접리스트" />
+    <MESSAGE value="DFS 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS 활용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
