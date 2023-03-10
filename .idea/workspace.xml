@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="DFS 활용">
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="BFS 활용">
       <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/Q10.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/ShortestFindMiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/Tomato.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Djkstra.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/inflern/Solution.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/inflern/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inflern/boj2748.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -48,22 +48,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tomato">
+  <component name="RunManager" selected="Application.boj2748">
     <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q10" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFS_BFS활용.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q5" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boj2748" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inflern.boj2748" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inflern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.boj2748" />
         <item itemvalue="Application.Tomato" />
         <item itemvalue="Application.ShortestFindMiro" />
         <item itemvalue="Application.Q10" />
         <item itemvalue="Application.Q7" />
-        <item itemvalue="Application.Q5" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674207013882</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="BFS 활용">
+      <created>1678095094171</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678095094171</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +373,8 @@
     <MESSAGE value="1번정점부터 각 정점으로가는 최소 간선 수" />
     <MESSAGE value="인접행렬과 인접리스트" />
     <MESSAGE value="DFS 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS 활용" />
+    <MESSAGE value="BFS 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS 활용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
