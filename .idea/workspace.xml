@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/island.java" afterDir="false" />
+    <list default="true" id="235bb216-61d0-4cf0-857d-bcdd48921cef" name="Changes" comment="섬나라 아일랜드 (BFS)">
+      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/NandM1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS_BFS활용/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/Physical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/SumoWrestler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/meetingTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,9 +47,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.island">
-    <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Q10" />
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Greedy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.meetingTime">
+    <configuration name="NandM1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.NandM1" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestFindMiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.ShortestFindMiro" />
+    <configuration name="Pizza" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Pizza" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.Tomato" />
+    <configuration name="SumoWrestler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.SumoWrestler" />
+      <module name="codingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="island2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.island2" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
@@ -82,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boj2748" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inflern.boj2748" />
+    <configuration name="meetingTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy.meetingTime" />
       <module name="codingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inflern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="island" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS_BFS활용.island" />
-      <module name="codingTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DFS_BFS활용.*" />
+          <option name="PATTERN" value="Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.island" />
-        <item itemvalue="Application.boj2748" />
-        <item itemvalue="Application.Tomato" />
-        <item itemvalue="Application.ShortestFindMiro" />
-        <item itemvalue="Application.Q10" />
+        <item itemvalue="Application.meetingTime" />
+        <item itemvalue="Application.SumoWrestler" />
+        <item itemvalue="Application.NandM1" />
+        <item itemvalue="Application.Pizza" />
+        <item itemvalue="Application.island2" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678421225025</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="섬나라 아일랜드 (DFS)">
+      <created>1678427399384</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678427399385</updated>
+    </task>
+    <task id="LOCAL-00032" summary="섬나라 아일랜드 (BFS)">
+      <created>1678428123055</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678428123055</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +399,9 @@
     <MESSAGE value="DFS 활용" />
     <MESSAGE value="BFS 활용" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="섬나라 아일랜드 (DFS)" />
+    <MESSAGE value="섬나라 아일랜드 (BFS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="섬나라 아일랜드 (BFS)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
