@@ -27,6 +27,7 @@ public class meetingTime {
         }
     }
     public static void main(String[] args) throws IOException {
+        System.out.println("안녕");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<meet> m = new ArrayList<>();
         int N = Integer.parseInt(br.readLine());
@@ -52,6 +53,6 @@ public class meetingTime {
             }
         }
 
-        System.out.println(answer);
+
     }
 }
